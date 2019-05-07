@@ -1,0 +1,11 @@
+<div class="arrangements-list">
+  <%= arrangements.map(arr => {
+    return `
+      <a href="/arrangements/${arr.id}">
+        <img src="/arrangement-images/${arr.photo_ids[0]}"/>
+        <b>${arr.name}</b>
+        <p>${arr.description}</p>
+      </a>
+    `;
+  }).join('\n') %>
+</div>

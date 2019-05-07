@@ -1,0 +1,7 @@
+<h1><%= name %></h1>
+<div>
+  <%= photo_ids.map(id => {
+    return `<img src="/arrangement-images/${id}"`
+  }).join('') %>
+</div>
+<p><%= description %></p>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>Auth Example</title>
+    <link href="static/kistners.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <form method="POST">
+      
+      <div class="error-message">
+        <%= errorMessage %>
+      </div>
+      
+      <label for="username">Username:</label>
+      <input type="text" name="username"/>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" name="password"/>
+      <br>
+      <label for="passwordConfirmation">Password Confirmation:</label>
+      <input type="password" name="passwordConfirmation"/>
+      <br>
+      <input type="submit" value="Create Account"/>
+      <p>Already have an account? <a href="/signin">sign in</a></p>
+      
+    </form>
+  </body>
+</html>

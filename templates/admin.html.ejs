@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Admin</title>
+    <link href="/static/kistners.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+      <div class="error-message">
+        <%= errorMessage %>
+      </div>
+  
+      
+      <form method="POST">
+          <h1>Modify User Role</h1>
+          
+          <label for="roleUsername">Username:</label>
+          <input type="text" name="roleUsername"/>
+          <br>
+          <lael for="role">Role:</lael>
+          <input type="text" name="role">
+          <br>
+          <input type="submit" name="assignRole" value="Assign Role"/>
+          
+      </form>
+      
+      <a href="/signup"> Create a user</a> <br>
+      <a href="/update"> Update user password</a>
+      
+  </body>
+</html>
