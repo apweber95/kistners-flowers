@@ -1,0 +1,19 @@
+{
+  "name": "kistners",
+  "version": "1.0.0",
+  "description": "Kistner's Web App",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "KSU CIS 526 Class",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "sqlite3": "^4.0.6"
+  }
+}
